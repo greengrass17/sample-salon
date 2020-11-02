@@ -1,0 +1,29 @@
+{
+  "imports": {
+    "@material-ui/core": "./@material-ui/core.js",
+    "@material-ui/core/Accordion": "./@material-ui/core/Accordion.js",
+    "@material-ui/core/AccordionDetails": "./@material-ui/core/AccordionDetails.js",
+    "@material-ui/core/AccordionSummary": "./@material-ui/core/AccordionSummary.js",
+    "@material-ui/core/AppBar": "./@material-ui/core/AppBar.js",
+    "@material-ui/core/Box": "./@material-ui/core/Box.js",
+    "@material-ui/core/Card": "./@material-ui/core/Card.js",
+    "@material-ui/core/CardContent": "./@material-ui/core/CardContent.js",
+    "@material-ui/core/CardMedia": "./@material-ui/core/CardMedia.js",
+    "@material-ui/core/CssBaseline": "./@material-ui/core/CssBaseline.js",
+    "@material-ui/core/Divider": "./@material-ui/core/Divider.js",
+    "@material-ui/core/IconButton": "./@material-ui/core/IconButton.js",
+    "@material-ui/core/List": "./@material-ui/core/List.js",
+    "@material-ui/core/ListItem": "./@material-ui/core/ListItem.js",
+    "@material-ui/core/ListItemIcon": "./@material-ui/core/ListItemIcon.js",
+    "@material-ui/core/ListItemText": "./@material-ui/core/ListItemText.js",
+    "@material-ui/core/SvgIcon": "./@material-ui/core/SvgIcon.js",
+    "@material-ui/core/Tab": "./@material-ui/core/Tab.js",
+    "@material-ui/core/Tabs": "./@material-ui/core/Tabs.js",
+    "@material-ui/core/Typography": "./@material-ui/core/Typography.js",
+    "@material-ui/core/styles": "./@material-ui/core/styles.js",
+    "@material-ui/lab/Rating": "./@material-ui/lab/Rating.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-router-dom": "./react-router-dom.js"
+  }
+}
