@@ -1,6 +1,5 @@
 {
   "imports": {
-    "@material-ui/core": "./@material-ui/core.js",
     "@material-ui/core/Accordion": "./@material-ui/core/Accordion.js",
     "@material-ui/core/AccordionDetails": "./@material-ui/core/AccordionDetails.js",
     "@material-ui/core/AccordionSummary": "./@material-ui/core/AccordionSummary.js",

@@ -1,4 +1,4 @@
-import { _ as _extends, p as propTypes, b as _inheritsLoose$1, a as _objectWithoutPropertiesLoose } from './common/hoist-non-react-statics.cjs-b9f6885b.js';
+import { b as _extends, p as propTypes, _ as _inheritsLoose$1, a as _objectWithoutPropertiesLoose } from './common/hoist-non-react-statics.cjs-4ffb5180.js';
 import { r as react } from './common/index-6ed86a98.js';
 
 function isAbsolute(pathname) {
@@ -2292,4 +2292,4 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
   });
 });
 
-export { BrowserRouter, Link, Route, Switch, useParams };
+export { HashRouter, Link, Route, Switch, useParams };

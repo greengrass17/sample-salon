@@ -1,17 +1,17 @@
-import { _ as _objectWithoutProperties, n as _defineProperty } from '../../common/defaultTheme-62dfd94c.js';
-import { _ as _extends } from '../../common/hoist-non-react-statics.cjs-b9f6885b.js';
+import { b as _extends } from '../../common/hoist-non-react-statics.cjs-4ffb5180.js';
+import { d as _objectWithoutProperties, n as _defineProperty } from '../../common/defaultTheme-f54ae8ee.js';
 import { r as react } from '../../common/index-6ed86a98.js';
-import { w as withStyles } from '../../common/withStyles-28088dbb.js';
 import { c as clsx } from '../../common/clsx.m-114f790f.js';
-import { u as useTheme } from '../../common/useTheme-a4a8983e.js';
-import { c as capitalize } from '../../common/capitalize-50d24fc7.js';
-import '../../common/SvgIcon-bda768d7.js';
-import { c as createSvgIcon } from '../../common/createSvgIcon-b82c3018.js';
-import '../../common/useForkRef-820922fa.js';
-import { B as ButtonBase, u as useEventCallback } from '../../common/ButtonBase-ac9a26a4.js';
 import '../../common/index-21e68f69.js';
-import '../../common/useIsFocusVisible-864a056a.js';
 import '../../common/TransitionGroupContext-034e45d2.js';
+import { B as ButtonBase, u as useEventCallback } from '../../common/ButtonBase-bd7aa3aa.js';
+import { w as withStyles } from '../../common/withStyles-14b79df6.js';
+import { u as useTheme } from '../../common/useTheme-b55598bc.js';
+import { c as capitalize } from '../../common/capitalize-a635d1b1.js';
+import '../../common/SvgIcon-25b936be.js';
+import { c as createSvgIcon } from '../../common/createSvgIcon-d17b2a8e.js';
+import '../../common/useForkRef-820922fa.js';
+import '../../common/useIsFocusVisible-864a056a.js';
 
 // Corresponds to 10 frames at 60 Hz.
 // A few bytes payload overhead when lodash/debounce is ~3 kB and debounce ~300 B.
@@ -50,22 +50,6 @@ function ownerWindow(node) {
   var doc = ownerDocument(node);
   return doc.defaultView || window;
 }
-
-/**
- * @ignore - internal component.
- */
-
-var KeyboardArrowLeft = createSvgIcon( /*#__PURE__*/react.createElement("path", {
-  d: "M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
-}));
-
-/**
- * @ignore - internal component.
- */
-
-var KeyboardArrowRight = createSvgIcon( /*#__PURE__*/react.createElement("path", {
-  d: "M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
-}));
 
 // Source from https://github.com/alitaheri/normalize-scroll-left
 var cachedType;
@@ -274,6 +258,22 @@ var TabIndicator = /*#__PURE__*/react.forwardRef(function TabIndicator(props, re
 var TabIndicator$1 = withStyles(styles$1, {
   name: 'PrivateTabIndicator'
 })(TabIndicator);
+
+/**
+ * @ignore - internal component.
+ */
+
+var KeyboardArrowLeft = createSvgIcon( /*#__PURE__*/react.createElement("path", {
+  d: "M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+}));
+
+/**
+ * @ignore - internal component.
+ */
+
+var KeyboardArrowRight = createSvgIcon( /*#__PURE__*/react.createElement("path", {
+  d: "M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+}));
 
 var styles$2 = {
   /* Styles applied to the root element. */

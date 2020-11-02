@@ -1,4 +1,4 @@
-import { k as formatMuiErrorMessage } from './defaultTheme-62dfd94c.js';
+import { k as formatMuiErrorMessage } from './defaultTheme-f54ae8ee.js';
 
 // It should to be noted that this function isn't equivalent to `text-transform: capitalize`.
 //

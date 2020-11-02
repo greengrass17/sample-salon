@@ -1,4 +1,4 @@
-import { u as useTheme$1, d as defaultTheme } from './defaultTheme-62dfd94c.js';
+import { u as useTheme$1, g as defaultTheme } from './defaultTheme-f54ae8ee.js';
 import './index-6ed86a98.js';
 
 function useTheme() {
