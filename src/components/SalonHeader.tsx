@@ -30,9 +30,10 @@ export default function SalonHeader({
   noOfReviews,
   rating,
 }: SalonProps): ReactElement {
+  const baseUrl = import.meta.env.MODE === 'production' ? '/sample-salon' : ''
   return (
     <Root elevation={0} square>
-      <CardMedia component="img" src={image} />
+      <CardMedia component="img" src={baseUrl + image} />
       <SalonHeaderContent>
         <Typography variant="h1" color="primary">
           {name}
