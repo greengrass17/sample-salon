@@ -1,7 +1,7 @@
 module.exports = {
   mount: {
-    public: '/sample-salon',
-    src: '/_dist_',
+    public: '/',
+    src: '_dist_',
   },
   plugins: [
     '@snowpack/plugin-react-refresh',
