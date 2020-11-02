@@ -1,3 +1,6 @@
+import __SNOWPACK_ENV__ from '../../__snowpack__/env.js';
+import.meta.env = __SNOWPACK_ENV__;
+
 import React from "../../web_modules/react.js";
 import Card2 from "../../web_modules/@material-ui/core/Card.js";
 import CardMedia2 from "../../web_modules/@material-ui/core/CardMedia.js";
@@ -26,12 +29,13 @@ export default function SalonHeader({
   noOfReviews,
   rating
 }) {
+  const baseUrl = import.meta.env.MODE === "production" ? "/sample-salon" : "";
   return /* @__PURE__ */ React.createElement(Root, {
     elevation: 0,
     square: true
   }, /* @__PURE__ */ React.createElement(CardMedia2, {
     component: "img",
-    src: image
+    src: baseUrl + image
   }), /* @__PURE__ */ React.createElement(SalonHeaderContent, null, /* @__PURE__ */ React.createElement(Typography2, {
     variant: "h1",
     color: "primary"
