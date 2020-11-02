@@ -13,15 +13,15 @@ const FILTERS = [
   },
   {
     min: 0,
-    max: 250,
+    max: 249,
   },
   {
     min: 250,
-    max: 500,
+    max: 499,
   },
   {
     min: 500,
-    max: 1000,
+    max: 999,
   },
 ];
 
