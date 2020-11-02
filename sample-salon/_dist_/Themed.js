@@ -1,6 +1,6 @@
-import React from "../web_modules/react.js";
-import {createMuiTheme, ThemeProvider} from "../web_modules/@material-ui/core/styles.js";
-import CssBaseline2 from "../web_modules/@material-ui/core/CssBaseline.js";
+import React from "../../web_modules/react.js";
+import {createMuiTheme, ThemeProvider} from "../../web_modules/@material-ui/core/styles.js";
+import CssBaseline2 from "../../web_modules/@material-ui/core/CssBaseline.js";
 const millerBannerLight = {
   fontFamily: "MillerBanner Light",
   fontStyle: "normal",

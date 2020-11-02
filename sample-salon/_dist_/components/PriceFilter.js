@@ -1,13 +1,13 @@
-import React, {useState, useContext} from "../../web_modules/react.js";
+import React, {useState, useContext} from "../../../web_modules/react.js";
 import DownIcon2 from "./icons/DownIcon.js";
-import Accordion2 from "../../web_modules/@material-ui/core/Accordion.js";
-import AccordionDetails2 from "../../web_modules/@material-ui/core/AccordionDetails.js";
-import AccordionSummary2 from "../../web_modules/@material-ui/core/AccordionSummary.js";
-import List2 from "../../web_modules/@material-ui/core/List.js";
-import ListItem2 from "../../web_modules/@material-ui/core/ListItem.js";
-import ListItemText2 from "../../web_modules/@material-ui/core/ListItemText.js";
-import Typography2 from "../../web_modules/@material-ui/core/Typography.js";
-import {withStyles} from "../../web_modules/@material-ui/core/styles.js";
+import Accordion2 from "../../../web_modules/@material-ui/core/Accordion.js";
+import AccordionDetails2 from "../../../web_modules/@material-ui/core/AccordionDetails.js";
+import AccordionSummary2 from "../../../web_modules/@material-ui/core/AccordionSummary.js";
+import List2 from "../../../web_modules/@material-ui/core/List.js";
+import ListItem2 from "../../../web_modules/@material-ui/core/ListItem.js";
+import ListItemText2 from "../../../web_modules/@material-ui/core/ListItemText.js";
+import Typography2 from "../../../web_modules/@material-ui/core/Typography.js";
+import {withStyles} from "../../../web_modules/@material-ui/core/styles.js";
 import {FilterContext} from "../contexts/FilterProvider.js";
 const FilterMenu = withStyles((theme) => ({
   root: {

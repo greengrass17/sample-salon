@@ -1,11 +1,11 @@
-import React, {useContext, Fragment} from "../../web_modules/react.js";
-import Box2 from "../../web_modules/@material-ui/core/Box.js";
-import Typography2 from "../../web_modules/@material-ui/core/Typography.js";
-import Divider2 from "../../web_modules/@material-ui/core/Divider.js";
+import React, {useContext, Fragment} from "../../../web_modules/react.js";
+import Box2 from "../../../web_modules/@material-ui/core/Box.js";
+import Typography2 from "../../../web_modules/@material-ui/core/Typography.js";
+import Divider2 from "../../../web_modules/@material-ui/core/Divider.js";
 import NextIcon2 from "./icons/NextIcon.js";
-import {Link} from "../../web_modules/react-router-dom.js";
+import {Link} from "../../../web_modules/react-router-dom.js";
 import {SalonContext} from "../contexts/SalonProvider.js";
-import {List, ListItem} from "../../web_modules/@material-ui/core.js";
+import {List, ListItem} from "../../../web_modules/@material-ui/core.js";
 import SalonRating2 from "./SalonRating.js";
 import {FilterContext} from "../contexts/FilterProvider.js";
 function SalonList() {

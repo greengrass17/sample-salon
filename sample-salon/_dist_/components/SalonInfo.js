@@ -1,14 +1,14 @@
-import React from "../../web_modules/react.js";
-import List2 from "../../web_modules/@material-ui/core/List.js";
-import ListItem2 from "../../web_modules/@material-ui/core/ListItem.js";
-import ListItemIcon2 from "../../web_modules/@material-ui/core/ListItemIcon.js";
-import ListItemText2 from "../../web_modules/@material-ui/core/ListItemText.js";
+import React from "../../../web_modules/react.js";
+import List2 from "../../../web_modules/@material-ui/core/List.js";
+import ListItem2 from "../../../web_modules/@material-ui/core/ListItem.js";
+import ListItemIcon2 from "../../../web_modules/@material-ui/core/ListItemIcon.js";
+import ListItemText2 from "../../../web_modules/@material-ui/core/ListItemText.js";
 import PinIcon2 from "./icons/PinIcon.js";
 import ClockIcon2 from "./icons/ClockIcon.js";
 import PhoneIcon2 from "./icons/PhoneIcon.js";
 import GlobeIcon2 from "./icons/GlobeIcon.js";
-import Divider2 from "../../web_modules/@material-ui/core/Divider.js";
-import {withStyles} from "../../web_modules/@material-ui/core/styles.js";
+import Divider2 from "../../../web_modules/@material-ui/core/Divider.js";
+import {withStyles} from "../../../web_modules/@material-ui/core/styles.js";
 const StyledList = withStyles((theme) => ({
   root: {
     paddingTop: theme.spacing(2)

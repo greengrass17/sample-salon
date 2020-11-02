@@ -1,5 +1,5 @@
-import React from "../../web_modules/react.js";
-import Box2 from "../../web_modules/@material-ui/core/Box.js";
+import React from "../../../web_modules/react.js";
+import Box2 from "../../../web_modules/@material-ui/core/Box.js";
 function TabPanel({children, value, index, ...other}) {
   return /* @__PURE__ */ React.createElement("div", {
     role: "tabpanel",

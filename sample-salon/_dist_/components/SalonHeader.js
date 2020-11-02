@@ -1,10 +1,10 @@
-import React from "../../web_modules/react.js";
-import Card2 from "../../web_modules/@material-ui/core/Card.js";
-import CardMedia2 from "../../web_modules/@material-ui/core/CardMedia.js";
-import CardContent2 from "../../web_modules/@material-ui/core/CardContent.js";
-import Typography2 from "../../web_modules/@material-ui/core/Typography.js";
+import React from "../../../web_modules/react.js";
+import Card2 from "../../../web_modules/@material-ui/core/Card.js";
+import CardMedia2 from "../../../web_modules/@material-ui/core/CardMedia.js";
+import CardContent2 from "../../../web_modules/@material-ui/core/CardContent.js";
+import Typography2 from "../../../web_modules/@material-ui/core/Typography.js";
 import SalonRating2 from "./SalonRating.js";
-import {withStyles} from "../../web_modules/@material-ui/core/styles.js";
+import {withStyles} from "../../../web_modules/@material-ui/core/styles.js";
 const Root = withStyles({
   root: {
     position: "relative"

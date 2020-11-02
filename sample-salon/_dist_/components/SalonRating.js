@@ -1,8 +1,8 @@
-import React from "../../web_modules/react.js";
-import {withStyles} from "../../web_modules/@material-ui/core.js";
-import Box2 from "../../web_modules/@material-ui/core/Box.js";
-import Typography2 from "../../web_modules/@material-ui/core/Typography.js";
-import Rating2 from "../../web_modules/@material-ui/lab/Rating.js";
+import React from "../../../web_modules/react.js";
+import {withStyles} from "../../../web_modules/@material-ui/core.js";
+import Box2 from "../../../web_modules/@material-ui/core/Box.js";
+import Typography2 from "../../../web_modules/@material-ui/core/Typography.js";
+import Rating2 from "../../../web_modules/@material-ui/lab/Rating.js";
 const SalonStars = withStyles((theme) => ({
   root: {
     fontSize: "1rem",

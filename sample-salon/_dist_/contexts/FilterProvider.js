@@ -1,7 +1,7 @@
 import React, {
   createContext,
   useState
-} from "../../web_modules/react.js";
+} from "../../../web_modules/react.js";
 const FILTERS = [
   {
     min: 0,

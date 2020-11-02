@@ -1,8 +1,8 @@
-import React from "../../web_modules/react.js";
-import AppBar2 from "../../web_modules/@material-ui/core/AppBar.js";
-import Typography2 from "../../web_modules/@material-ui/core/Typography.js";
-import Box2 from "../../web_modules/@material-ui/core/Box.js";
-import {styled, withStyles} from "../../web_modules/@material-ui/core/styles.js";
+import React from "../../../web_modules/react.js";
+import AppBar2 from "../../../web_modules/@material-ui/core/AppBar.js";
+import Typography2 from "../../../web_modules/@material-ui/core/Typography.js";
+import Box2 from "../../../web_modules/@material-ui/core/Box.js";
+import {styled, withStyles} from "../../../web_modules/@material-ui/core/styles.js";
 const Container = styled("div")({
   display: "grid",
   width: "100%",

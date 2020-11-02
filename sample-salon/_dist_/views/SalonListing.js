@@ -1,5 +1,5 @@
-import React from "../../web_modules/react.js";
-import IconButton2 from "../../web_modules/@material-ui/core/IconButton.js";
+import React from "../../../web_modules/react.js";
+import IconButton2 from "../../../web_modules/@material-ui/core/IconButton.js";
 import SalonList2 from "../components/SalonList.js";
 import BackIcon2 from "../components/icons/BackIcon.js";
 import FilterIcon2 from "../components/icons/FilterIcon.js";

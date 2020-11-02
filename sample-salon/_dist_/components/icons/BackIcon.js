@@ -1,5 +1,5 @@
-import React from "../../../web_modules/react.js";
-import SvgIcon2 from "../../../web_modules/@material-ui/core/SvgIcon.js";
+import React from "../../../../web_modules/react.js";
+import SvgIcon2 from "../../../../web_modules/@material-ui/core/SvgIcon.js";
 export default function BackIcon(props) {
   return /* @__PURE__ */ React.createElement(SvgIcon2, {
     width: "11",
