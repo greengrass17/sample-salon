@@ -6,7 +6,8 @@ import Divider from '@material-ui/core/Divider';
 import NextIcon from './icons/NextIcon';
 import { Link } from 'react-router-dom';
 import { SalonContext } from '../contexts/SalonProvider';
-import { List, ListItem } from '@material-ui/core';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 import SalonRating from './SalonRating';
 import { FilterContext } from '../contexts/FilterProvider'
 

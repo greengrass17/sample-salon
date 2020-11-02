@@ -4,7 +4,7 @@ import SalonDetail from './views/SalonDetail';
 import SalonProvider from './contexts/SalonProvider';
 import FilterProvider from './contexts/FilterProvider'
 import Themed from './Themed';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
