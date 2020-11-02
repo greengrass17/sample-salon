@@ -1,6 +1,10 @@
 {
   "include": ["src", "types"],
   "compilerOptions": {
+    "lib": ["ES6", "DOM"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
